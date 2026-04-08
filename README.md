@@ -3,6 +3,11 @@
 The **TopstepX SDK** is an **unofficial .NET SDK** for interacting with the Topstep API, designed to simplify account management, order handling, and integration with live market updates. This project is not affiliated with, endorsed by, or maintained by Topstep.
 
 (Documentation done with AI cause I am too lazy)
+
+## Important Links:
+https://gateway.docs.projectx.com/docs/category/api-reference
+https://gateway.docs.projectx.com/docs/realtime/
+
 ---
 
 ## Features
