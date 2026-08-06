@@ -2,7 +2,7 @@
 {
     public enum OrderSide
     {
-        Bid = 0,
-        Ask = 1
+        Buy = 0,
+        Sell = 1
     }
 }

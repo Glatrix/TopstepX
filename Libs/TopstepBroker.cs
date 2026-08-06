@@ -9,10 +9,12 @@ using TopstepX.Models.Orders;
 using TopstepX.Models.Positions;
 using TopstepX.Models.Trades;
 using TopstepX.SignalR;
+using System;
+using System.Net.Http;
 
 namespace TopstepX
 {
-    public class TopstepClient
+    public class TopstepBroker
     {
         private readonly string _apiKey;
         private readonly string _userName;
@@ -24,7 +26,7 @@ namespace TopstepX
             PropertyNameCaseInsensitive = true
         };
 
-        public TopstepClient(string userName, string apiKey)
+        public TopstepBroker(string userName, string apiKey)
         {
             _apiKey = userName == null ? throw new ArgumentNullException(nameof(apiKey)) : apiKey;
             _userName = userName ?? throw new ArgumentNullException(nameof(userName));
@@ -75,7 +77,7 @@ namespace TopstepX
             }
         }
 
-        private async Task EnsureAuthenticated()
+        private void EnsureAuthenticated()
         {
             if (string.IsNullOrEmpty(_sessionToken))
                 throw new InvalidOperationException("No active session. Call AuthLoginKey first.");
