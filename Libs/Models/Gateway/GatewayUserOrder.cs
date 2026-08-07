@@ -15,10 +15,10 @@ namespace TopstepX.Models.Gateway
         public OrderType type { get; set; }
         public OrderSide side { get; set; }
         public int size { get; set; }
-        public decimal? limitPrice { get; set; }
-        public decimal? stopPrice { get; set; }
+        public double? limitPrice { get; set; }
+        public double? stopPrice { get; set; }
         public int fillVolume { get; set; }
-        public decimal? filledPrice { get; set; }
+        public double? filledPrice { get; set; }
         public string customTag { get; set; }
     }
 }

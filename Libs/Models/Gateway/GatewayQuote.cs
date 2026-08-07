@@ -4,14 +4,14 @@
     {
         public string symbol { get; set; }
         public string symbolName { get; set; }
-        public decimal lastPrice { get; set; }
-        public decimal bestBid { get; set; }
-        public decimal bestAsk { get; set; }
-        public decimal change { get; set; }
-        public decimal changePercent { get; set; }
-        public decimal open { get; set; }
-        public decimal high { get; set; }
-        public decimal low { get; set; }
+        public double lastPrice { get; set; }
+        public double bestBid { get; set; }
+        public double bestAsk { get; set; }
+        public double change { get; set; }
+        public double changePercent { get; set; }
+        public double open { get; set; }
+        public double high { get; set; }
+        public double low { get; set; }
         public long volume { get; set; }
         public string lastUpdated { get; set; }
         public string timestamp { get; set; }

@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Code\\NET\\TopstepX\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{538A2B8B-C403-49D6-BBBB-8521F7BE472A}|Libs\\TopstepBroker.csproj|d:\\code\\net\\topstepx\\libs\\topstepbroker.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{538A2B8B-C403-49D6-BBBB-8521F7BE472A}|Libs\\TopstepBroker.csproj|solutionrelative:libs\\topstepbroker.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TopstepBroker",
+              "DocumentMoniker": "D:\\Code\\NET\\TopstepX\\Libs\\TopstepBroker.csproj",
+              "RelativeDocumentMoniker": "Libs\\TopstepBroker.csproj",
+              "ToolTip": "D:\\Code\\NET\\TopstepX\\Libs\\TopstepBroker.csproj",
+              "RelativeToolTip": "Libs\\TopstepBroker.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-07T03:31:00.889Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -11,6 +11,6 @@ namespace TopstepX.Models.Gateway
         public string creationTimestamp { get; set; }
         public PositionType type { get; set; }
         public int size { get; set; }
-        public decimal averagePrice { get; set; }
+        public double averagePrice { get; set; }
     }
 }

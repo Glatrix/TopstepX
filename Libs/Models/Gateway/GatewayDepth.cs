@@ -4,8 +4,8 @@
     {
         public string timestamp { get; set; }
         public DomType type { get; set; }
-        public decimal price { get; set; }
-        public decimal volume { get; set; }
+        public double price { get; set; }
+        public double volume { get; set; }
         public int currentVolume { get; set; }
     }
 }

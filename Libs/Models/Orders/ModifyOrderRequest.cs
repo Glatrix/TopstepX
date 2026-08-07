@@ -5,8 +5,8 @@
         public int accountId { get; set; }
         public long orderId { get; set; }
         public int? size { get; set; }
-        public decimal? limitPrice { get; set; }
-        public decimal? stopPrice { get; set; }
-        public decimal? trailPrice { get; set; }
+        public double? limitPrice { get; set; }
+        public double? stopPrice { get; set; }
+        public double? trailPrice { get; set; }
     }
 }

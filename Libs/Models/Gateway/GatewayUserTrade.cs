@@ -9,9 +9,9 @@ namespace TopstepX.Models.Gateway
         public int accountId { get; set; }
         public string contractId { get; set; }
         public string creationTimestamp { get; set; }
-        public decimal price { get; set; }
-        public decimal profitAndLoss { get; set; }
-        public decimal fees { get; set; }
+        public double price { get; set; }
+        public double profitAndLoss { get; set; }
+        public double fees { get; set; }
         public OrderSide side { get; set; }
         public int size { get; set; }
         public bool voided { get; set; }
