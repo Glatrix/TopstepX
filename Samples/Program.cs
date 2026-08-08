@@ -16,7 +16,7 @@ namespace Samples
 
     static async void Run()
     {
-      var client = new TopstepBroker("arteinvolo@gmail.com", "Ou/vnGd3kmF5KDGCeSMCFVsiHZzucF5dkNLy/oLgwsM=");
+      var client = new TopstepBroker("email@example.com", "TOKEN_HERE");
 
       var loginResponse = await client.AuthLoginKey();
       Console.WriteLine($"Token: {loginResponse.token}");
